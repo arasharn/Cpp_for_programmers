@@ -13,7 +13,7 @@ int main(void)
     float denominator = 5;
 
     // Bug: int answer = numerator / denominator;
-    float answer = numerator / denominator;
+    answer = numerator / denominator;
     std::cout<<"answer = "<<answer;
     return 0;
 }
